@@ -1,6 +1,9 @@
 import streamlit as st
 import pandas as pd
 import plotly.express as px
+import subprocess
+
+st.write(subprocess.getoutput("pip list"))
 
 # Page setup
 st.set_page_config(
